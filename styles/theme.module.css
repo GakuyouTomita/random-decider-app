@@ -1,0 +1,22 @@
+/* Theme.module.css */
+
+.container {
+  position: relative; /* Establishes a stacking context */
+}  
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    z-index: 10; /* 背景より前面に表示される */
+  }
+  
+
+  .figure {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    z-index: 1;
+  }

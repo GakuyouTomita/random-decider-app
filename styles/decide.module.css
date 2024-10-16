@@ -1,0 +1,111 @@
+/* decide.module.css */
+
+.themeTitle {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #7b630b;
+}
+
+.message {
+    font-size: 1.875rem;
+    /* text-3xl */
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.accordionButton {
+    background-color: #fae38b;
+    color: rgb(39, 39, 39);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.5rem 2rem;
+
+    border: 0.25rem solid;
+    border-radius: 32px;
+    box-shadow: 3px 3px 0px 0px rgb(57, 57, 57);
+    transition: background-color 0.3s ease-in-out;
+    position: relative;
+    z-index: 10;
+}
+
+.buttonText {
+    margin-left: 0.5rem;
+}
+
+.buttonIcon {
+    background-color: #fff;
+    border: 0.25rem solid;
+    border-radius: 32px;
+    margin-left: 2rem;
+    padding: 0rem 0.1rem;
+}
+
+.accordionContent {
+    padding: 1rem;
+    margin-top: 1rem;
+    z-index: 10;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: #fff;
+    border: 0.25rem solid;
+    border-radius: 16px;
+    box-shadow: 3px 3px 0px 0px rgb(57, 57, 57);
+}
+
+.optionLabel {
+    position: relative;
+    border: 2px solid transparent;
+    border-radius: 9999px;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.optionLabelSelected {
+    background-color: #7b630b;
+    /* blue-500 */
+    color: white;
+}
+
+.optionLabelUnselected {
+    background-color: white;
+    color: black;
+}
+
+.checkbox {
+    display: none;
+}
+
+.checkboxIcon {
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    font-size: 1.25rem;
+    /* text-xl */
+    color: white;
+}
+
+.decisionTextContainer {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+
+.figure {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    z-index: 1;
+  }
+
+
+

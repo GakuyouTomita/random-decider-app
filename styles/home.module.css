@@ -1,0 +1,25 @@
+/* Home.module.css */
+
+.figure {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  z-index: 1;
+}
+
+
+.responsiveImage {
+  object-fit: contain;
+  /* 画像の縦横比を保ち、縦幅を調整 */
+  height: 100%;
+  /* 高さを100%にして画面いっぱいに */
+}
+
+
+
+.bgBlack {
+  width: 100%;
+  background-color: black;
+}

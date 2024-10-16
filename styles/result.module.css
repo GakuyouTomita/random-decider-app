@@ -1,0 +1,20 @@
+/* decide.module.css */
+
+
+
+.result {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #f56565;
+    /* red-500 */
+    margin: 1rem 0;
+}
+
+.figure {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    z-index: 1;
+  }
